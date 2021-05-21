@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crypon | Docs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/doc.css">
+    <link rel="author" href="Ali Yasin">
+</head>
+
+<body>
+    <div class="doc__bg"></div>
+    <nav class="header">
+        <h1 class="logo">Crypon <span class="logo__thin">Docs</span></h1>
+        <ul class="menu">
+            <div class="menu__item toggle"><span></span></div>
+            <li class="menu__item"><a href="https://github.com/aliyasiny65/crypon-discord-bot"
+                    class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+            <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <aside class="doc__nav">
+            <ul>
+                <li class="js-btn selected">Başlangıç</li>
+                <li class="js-btn">Genel Komutlar</li>
+                <li class="js-btn">Moderasyon</li>
+                <li class="js-btn">Eğlence</li>
+            </ul>
+        </aside>
+        <article class="doc__content">
+            <section class="js-section">
+                <p>
+                    <font face="tahoma" size="5" color="maroon">
+                        <b>Başlangıç</b>
+                    </font>
+                </p>
+                <p>Crypon Discord botun bütün komutları hakkında bilgileri buradan öğrenebilirsiniz. Varsayılan
+                    prefix(Önek): !c Bütün komutlar başına prefix yerleştirilerek kullanılır. Prefix
+                    özelleştirilebilirdir ve Maksimum 4 karakterlik bir prefix oluşturabilirsiniz.</p>
+                <h3 class="section__title">Dil Ayarlamak</h3>
+                <div class="code__block code__block--notabs">
+                    <pre class="code code--block">
+              <code>
+                  !csetlanguage [dil-kodu]
+              </code>
+            </pre>
+                    <p>Crypon Şu anda Türkçe ve İngilizce dilini tam olarak destekler. Türkçe yapmak için tr_TR,
+                        İngilizce yapmak için en_US dil kodunu kullanabilirsiniz.</p>
+                </div>
+                <h3 class="section__title">Prefix değiştirmek</h3>
+                <p>Crypon Prefixi değiştirmenize olanak sunar isterseniz bu prefixi değiştirebilirsiniz. Varsayılan
+                    olarak !c kullanılır. Yeni özel prefixiniz maksimum 4 karakter uzunluğunda olmalıdır.</p>
+                <pre class="code code--block">
+             <code>
+                !csetprefix [yeni-prefix]
+             </code>
+            </pre>
+                <h3 class="section__title">Mute rolü ayarlamak</h3>
+                <p>Crypon botun mute özelliğinin tam olarak çalışabilmesi için belirli bir mute rolü ayarlanması
+                    gereklidir. Bunu aşağıda ki örnekte ki şekilde yapabilirsiniz</p>
+                <pre class="code code--block">
+            <code>
+            !csetmuterole [@mute-rol]
+           </code>
+            </pre>
+            </section>
+            <section class="js-section">
+                <p>
+                    <font face="tahoma" size="5" color="maroon">
+                        <b>Genel</b>
+                    </font>
+                </p>
+                <p>Genel olarak bilgi vb. için kullanılan komutlar hakkında bilgileri görün.</p>
+                <h3 class="section__title">Avatar komutu</h3>
+                <p>Crypon bot ile avatar(profil resmi) direk link olarak erişebilirsiniz.</p>
+                <pre class="code code--block">
+            <code>
+            !cavatar [@kişi]
+           </code>
+            </pre>
+                <h3 class="section__title">Botinfo komutu</h3>
+                <p>Crypon botun işletim sistemi RAM bilgisi vb. istatistiksel verilerini gösterir.</p>
+                <pre class="code code--block">
+        <code>
+        !cbotinfo
+       </code>
+    </pre>
+                <h3 class="section__title">GIF komutu</h3>
+                <p>Tenor üzerinde GIF aratır sonucu komutun kullanıldığı kanal üzerinden gönderir.</p>
+                <pre class="code code--block">
+<code>
+!cgif [tenorda-aratmak-istediğiniz-gif-ismi]
+</code>
+</pre>
+                <h3 class="section__title">Invites komutu</h3>
+                <p>Belirttiğiniz kişinin kaç adet daveti olduğunu gösterir.</p>
+                <pre class="code code--block">
+<code>
+!cinvites [@kişi]
+</code>
+</pre>
+                <h3 class="section__title">Languages komutu</h3>
+                <p>Crypon botun desteklediği tüm dilleri görüntüler.</p>
+                <pre class="code code--block">
+<code>
+!clanguages
+</code>
+</pre>
+                <h3 class="section__title">Minfo komutu</h3>
+                <p>Belirttiğiniz kişinin sunucuya katılma, hesap açma gibi bilgilerini gösterir.</p>
+                <pre class="code code--block">
+<code>
+!cminfo
+</code>
+</pre>
+                <h3 class="section__title">Report komutu</h3>
+                <p>Crypon bot hakkında yaşadığınız problem veya bir sorunuz varsa bunu Crypon botun kurucusuna rapor
+                    etmek için kullanacağınız komuttur. Yaşadığınız sorunu açıkca anlatabilirsiniz.</p>
+                <pre class="code code--block">
+<code>
+!creport [raporunuz]
+</code>
+</pre>
+                <h3 class="section__title">Sinfo komutu</h3>
+                <p>Sunucu hakkında bilgiler verir.</p>
+                <pre class="code code--block">
+<code>
+!csinfo
+</code>
+</pre>
+                <h3 class="section__title">Stats komutu</h3>
+                <p>Crypon botun gecikme süresi, toplam olduğu sunucu sayısı gibi bilgileri gösterir.</p>
+                <pre class="code code--block">
+<code>
+!cstats
+</code>
+</pre>
+                <h3 class="section__title">Ping komutu</h3>
+                <p>Crypon botun gecikme süresini gösterir.</p>
+                <pre class="code code--block">
+<code>
+!cping
+</code>
+</pre>
+
+                <hr />
+            </section>
+            <section class="js-section">
+                <p>
+                    <font face="tahoma" size="5" color="maroon">
+                        <b>Moderasyon</b>
+                    </font>
+                </p>
+                <h3 class="section__title">Ban komutu</h3>
+                <p>Sunucunuzdan bir üyeyi yasaklamak için kullanabilirsiniz.</p>
+                <pre class="code code--block">
+        <code>
+        !cban [@kişi] [sebep(opsiyonel)]
+       </code>
+    </pre>
+                <h3 class="section__title">Grole komutu</h3>
+                <p>Belirttiğiniz kişiye istediğiniz bir rolü verir.</p>
+                <pre class="code code--block">
+<code>
+!cgrole [@kişi] [@verilecek-rol]
+</code>
+</pre>
+                <h3 class="section__title">Kick komutu</h3>
+                <p>Sunucudan bir üyeyi atmak için kullanabilirsiniz.</p>
+                <pre class="code code--block">
+<code>
+    !ckick [@kişi] [sebep(opsiyonel)]
+</code>
+</pre>
+                <h3 class="section__title">Lock komutu</h3>
+                <p>Komutun girildiği kanalda tüm roller için yazı yazma izni kapatılır. Fakat Yönetici izni olan kişiler
+                    hala yazmaya devam edebilirler.</p>
+                <pre class="code code--block">
+<code>
+!clock
+</code>
+</pre>
+                <h3 class="section__title">Logchannel komutu</h3>
+                <p>Crypon botun günlük kaydı yapacağı kanalı ayarlarsınız.</p>
+                <pre class="code code--block">
+<code>
+!clogch [#kanal]
+</code>
+</pre>
+                <h3 class="section__title">Mute komutu</h3>
+                <p>Belirttiğiniz kişiyi yazı kanallarından susturur.</p>
+                <pre class="code code--block">
+<code>
+!cmute [@kişi] [süre]
+</code>
+</pre>
+                <h3 class="section__title">Purge komutu</h3>
+                <p>Belirttiğiniz kanalda belirttiğiniz kadar mesaj siler. Fakat 14 günden eski mesajları silemez ve tek
+                    seferde maksimum 100 mesaj siler.</p>
+                <pre class="code code--block">
+<code>
+!cpurge [sayı]
+</code>
+</pre>
+                <h3 class="section__title">Rmrole komutu</h3>
+                <p>Belirttiğiniz kişiden söylediğiniz rolü kaldırır.</p>
+                <pre class="code code--block">
+<code>
+!crmrole [@kişi] [@rol]
+</code>
+</pre>
+                <h3 class="section__title">Setautorole komutu</h3>
+                <p>Sunucuya kişi katılınca otomatik olarak verilecek rolü ayarlarsınız.</p>
+                <pre class="code code--block">
+<code>
+!csetautorole [@rol]
+</code>
+</pre>
+                <h3 class="section__title">Setmuterole komutu</h3>
+                <p>Susturma rolünü ayarlar.</p>
+                <pre class="code code--block">
+<code>
+!csetmuterole [@rol]
+</code>
+</pre>
+                <h3 class="section__title">Setnickname komutu</h3>
+                <p>Söylediğiniz kişinin sunucuda ki takma adını değiştirir.</p>
+                <pre class="code code--block">
+<code>
+!csetnickname [@üye] [yeni-nick]
+</code>
+</pre>
+                <h3 class="section__title">Unban komutu</h3>
+                <p>Bir kişinin sunucuda ki yasaklamasını kaldırabilirsiniz.</p>
+                <pre class="code code--block">
+<code>
+!cunban [kişi-ID]
+</code>
+</pre>
+                <h3 class="section__title">Unlock komutu</h3>
+                <p>Kanalın yazma kilidini kaldırır.</p>
+                <pre class="code code--block">
+<code>
+!cunlock
+</code>
+</pre>
+
+                <hr />
+            </section>
+            <section class="js-section">
+                <font face="tahoma" size="5" color="maroon">
+                    <b>Eğlence</b>
+                </font>
+                <h3 class="section__title">Job komutu</h3>
+                <p>Rastgele bir meslek ismi belirler.</p>
+                <pre class="code code--block">
+<code>
+!cjob [@kişi(opsiyonel)]
+</code>
+</pre>
+                <h3 class="section__title">Love komutu</h3>
+                <p>Söylediğiniz kişi ile olan sevginizi ölçer.</p>
+                <pre class="code code--block">
+<code>
+!clove [@kişi]
+</code>
+</pre>
+
+            </section>
+        </article>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="js/doc.js"></script>
+</body>
+
+</html>
