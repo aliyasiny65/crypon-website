@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://crypon.xyz/</loc>
+	<lastmod>2021-07-23T18:45:40+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://crypon.xyz/index.html</loc>
+	<lastmod>2021-07-23T18:45:40+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://crypon.xyz/komutlar.html</loc>
+	<lastmod>2021-07-23T18:45:42+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://crypon.xyz/yenilikler.html</loc>
+	<lastmod>2021-07-23T18:45:43+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://crypon.xyz/docs.html</loc>
+	<lastmod>2021-07-23T18:45:43+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://crypon.xyz/gizlilik.html</loc>
+	<lastmod>2021-07-23T18:45:43+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
